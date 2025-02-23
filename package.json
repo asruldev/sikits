@@ -1,5 +1,5 @@
 {
-  "name": "siutils",
+  "name": "sikits",
   "version": "1.0.0",
   "description": "A powerful utility library for JavaScript and TypeScript",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/asruldev/siutils"
+    "url": "https://github.com/asruldev/sikits"
   },
   "author": "Asrul Harahap",
   "license": "MIT"
