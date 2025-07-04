@@ -3,8 +3,16 @@
     "outDir": "dist",
     "declaration": true,
     "module": "CommonJS",
-    "target": "ES6",
+    "target": "ES2017",
+    "lib": ["ES2017", "DOM"],
     "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "test"]
 }

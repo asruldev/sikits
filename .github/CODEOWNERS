@@ -1,0 +1,30 @@
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @asruldev will be requested for review when someone opens a pull request.
+* @asruldev
+
+# Source code
+/src/ @asruldev
+
+# Tests
+/test/ @asruldev
+
+# Documentation
+/README.md @asruldev
+/CHANGELOG.md @asruldev
+/CONTRIBUTING.md @asruldev
+/SECURITY.md @asruldev
+/CODE_OF_CONDUCT.md @asruldev
+
+# Configuration files
+/package.json @asruldev
+/tsconfig.json @asruldev
+/jest.config.js @asruldev
+/.eslintrc.js @asruldev
+/.prettierrc @asruldev
+
+# Playground
+/playground/ @asruldev
+
+# GitHub workflows
+/.github/ @asruldev 

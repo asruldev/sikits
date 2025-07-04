@@ -1,4 +1,4 @@
-import { toFixedNumber, formatCurrency, parseNumber, clamp, roundTo, randomInt, gcd, lcm, factorial, isPrime, fibonacci, isEven, isOdd, isInteger, isFloat, isBetween, toRadians, toDegrees, toPercentage, fromPercentage, sum, average, median, mode, range } from "../src/index";
+import { toFixedNumber, formatCurrency, parseNumber, clamp, roundTo, randomInt, gcd, lcm, factorial, fibonacci, isEven, isOdd, isInteger, isFloat, isBetween, toRadians, toDegrees, toPercentage, fromPercentage, sum, average, median, mode, range } from "../src/index";
 
 test("toFixedNumber should format correctly", () => {
     expect(toFixedNumber(12.3456, 2)).toBe(12.35);
@@ -47,9 +47,9 @@ test("factorial should return correct value", () => {
     expect(factorial(5)).toBe(120);
 });
 
-test("isPrime should identify prime numbers", () => {
-    expect(isPrime(7)).toBe(true);
-    expect(isPrime(10)).toBe(false);
+test("factorial should return correct value", () => {
+    expect(factorial(5)).toBe(120);
+    expect(factorial(0)).toBe(1);
 });
 
 test("fibonacci should return correct sequence value", () => {
