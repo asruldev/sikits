@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sikits/static/css/main.d2141ccc.css",
+    "main.js": "/sikits/static/js/main.6056c229.js",
+    "index.html": "/sikits/index.html",
+    "main.d2141ccc.css.map": "/sikits/static/css/main.d2141ccc.css.map",
+    "main.6056c229.js.map": "/sikits/static/js/main.6056c229.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2141ccc.css",
+    "static/js/main.6056c229.js"
+  ]
+}
